@@ -69,7 +69,7 @@ function  validationForm(){
         submitError.innerHTML = 'Please fix error to submit';
         setTimeout(()=>{
             submitError.style.display = "no ne";
-        },3000)
+        },3000);
         return false;
-    }
-}
+    };
+};
